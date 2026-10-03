@@ -47,4 +47,10 @@ btnBuscar.addEventListener('click', () => {
 
     resultadoBusca.textContent = `Buscando por: ${busca}`
 })
+const notificacao = document.querySelector('#notificacao')
+const lerNotificacao = document.querySelector('#lerNotificacao')
+
+lerNotificacao.addEventListener('click', () => {
+    notificacao.textContent = 'Nenhuma notificação nova.'
+})
 app.innerHTML = '<p>Aplicação iniciada.</p>'
