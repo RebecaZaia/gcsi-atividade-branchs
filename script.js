@@ -1,3 +1,6 @@
-const app = document.querySelector('#app')
+const notificacao = document.querySelector('#notificacao')
+const lerNotificacao = document.querySelector('#lerNotificacao')
 
-app.innerHTML = '<p>Aplicação iniciada.</p>'
+lerNotificacao.addEventListener('click', () => {
+    notificacao.textContent = 'Nenhuma notificação nova.'
+})
