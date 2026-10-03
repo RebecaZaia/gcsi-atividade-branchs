@@ -63,6 +63,12 @@ const listaHistorico = document.querySelector('#listaHistorico')
 listaHistorico.addEventListener('click', () => {
     alert('Histórico selecionado!')
 })
+const btnFavorito = document.querySelector('#btnFavorito')
+const statusFavorito = document.querySelector('#statusFavorito')
+
+btnFavorito.addEventListener('click', () => {
+    statusFavorito.textContent = 'Adicionado aos favoritos!'
+})
 btnFavorito.addEventListener('dblclick', () => {
     statusFavorito.textContent = 'Removido dos favoritos.'
 })
