@@ -5,6 +5,11 @@ body {
     padding: 20px;
 }
 
+body.escuro {
+    background: #222;
+    color: white;
+}
+
 button {
     padding: 8px 15px;
     cursor: pointer;

@@ -1,3 +1,5 @@
-const app = document.querySelector('#app')
+const modoEscuro = document.querySelector('#modoEscuro')
 
-app.innerHTML = '<p>Aplicação iniciada.</p>'
+modoEscuro.addEventListener('click', () => {
+    document.body.classList.toggle('escuro')
+})
