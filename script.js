@@ -58,4 +58,9 @@ const modoEscuro = document.querySelector('#modoEscuro')
 modoEscuro.addEventListener('click', () => {
     document.body.classList.toggle('escuro')
 })
+const listaHistorico = document.querySelector('#listaHistorico')
+
+listaHistorico.addEventListener('click', () => {
+    alert('Histórico selecionado!')
+})
 app.innerHTML = '<p>Aplicação iniciada.</p>'
