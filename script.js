@@ -53,4 +53,9 @@ const lerNotificacao = document.querySelector('#lerNotificacao')
 lerNotificacao.addEventListener('click', () => {
     notificacao.textContent = 'Nenhuma notificação nova.'
 })
+const modoEscuro = document.querySelector('#modoEscuro')
+
+modoEscuro.addEventListener('click', () => {
+    document.body.classList.toggle('escuro')
+})
 app.innerHTML = '<p>Aplicação iniciada.</p>'
