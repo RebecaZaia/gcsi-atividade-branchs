@@ -32,4 +32,5 @@ editarPerfil.addEventListener('click', () => {
     if (novoNome) {
         nomePerfil.textContent = `Nome: ${novoNome}`
     }
+})
 app.innerHTML = '<p>Aplicação iniciada.</p>'
