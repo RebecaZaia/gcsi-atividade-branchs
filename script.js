@@ -69,4 +69,7 @@ const statusFavorito = document.querySelector('#statusFavorito')
 btnFavorito.addEventListener('click', () => {
     statusFavorito.textContent = 'Adicionado aos favoritos!'
 })
+btnFavorito.addEventListener('dblclick', () => {
+    statusFavorito.textContent = 'Removido dos favoritos.'
+})
 app.innerHTML = '<p>Aplicação iniciada.</p>'
