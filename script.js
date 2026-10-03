@@ -16,8 +16,8 @@ const loginSenha = document.querySelector('#loginSenha')
 const btnLogin = document.querySelector('#btnLogin')
 
 btnLogin.addEventListener('click', () => {
-    if (!loginEmail.value || !loginSenha.value) {
-        alert('Preencha email e senha.')
+    if (!loginEmail.value) {
+        alert('Digite o email.')
         return
     }
 
