@@ -56,6 +56,6 @@ lerNotificacao.addEventListener('click', () => {
 const modoEscuro = document.querySelector('#modoEscuro')
 
 modoEscuro.addEventListener('click', () => {
-    document.body.classList.toggle('dark')
+    document.body.classList.toggle('escuro')
 })
 app.innerHTML = '<p>Aplicação iniciada.</p>'
