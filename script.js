@@ -1,3 +1,12 @@
-const app = document.querySelector('#app')
+const loginEmail = document.querySelector('#loginEmail')
+const loginSenha = document.querySelector('#loginSenha')
+const btnLogin = document.querySelector('#btnLogin')
 
-app.innerHTML = '<p>Aplicação iniciada.</p>'
+btnLogin.addEventListener('click', () => {
+    if (!loginEmail.value || !loginSenha.value) {
+        alert('Preencha email e senha.')
+        return
+    }
+
+    alert('Login realizado com sucesso!')
+})
